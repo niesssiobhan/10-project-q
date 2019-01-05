@@ -13,18 +13,3 @@ db.subscribe('create', (payload) => {
 });
 
 console.log(db.subscriptions());
-
-
-
-
-// const io = require('./lib/subscribe.js');
-
-// const db = constructor('database');
-
-// db.subscribe('delete', (payload) => {
-//   console.log('has been deleted', payload);
-// });
-
-// db.subscribe('create', (payload) => {
-//   console.log('has been created', payload);
-// });
