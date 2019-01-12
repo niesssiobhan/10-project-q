@@ -30,8 +30,8 @@ This file is connected to the simulator.js. This publishes events to the Queue a
 
 #### Running the app
 * Open three windows in your terminal
-* In the first run `node queue-server.js` 
-* In the next run `node simulator.js`
+* In the first run `node server.js` 
+* In the next run `node publish.js`
 * In the last run `node client.js`
 
 #### Tests
