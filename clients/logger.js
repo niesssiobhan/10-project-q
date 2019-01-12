@@ -10,3 +10,9 @@ databaseQueue.subscribe('delete', (payload) => {
 databaseQueue.subscribe('create', (payload) => {
   console.log('CREATE', payload);
 });
+
+const networkQueue = new Connection('network');
+
+networkQueue.subscribe('attack', (payload) => {
+  console.log('run!', payload);
+});
